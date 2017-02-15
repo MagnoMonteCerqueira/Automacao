@@ -19,3 +19,11 @@ A ideia deste projeto e automatizar uma residência com a shield de automação 
 
 Para utilizarmos os reles para o acionamento em conjunto com a shield e necessario instalarmos a biblioteca para comunicação do CI MCP23017.
 
+#### -1 Vamos seguir o passo a passo abaixo para instalação das dependencias. 
+```sh
+* apt-get update 
+* apt-get install build-essential python-pip python-dev python-smbus git
+* git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
+* cd Adafruit_Python_GPIO
+* python setup.py install
+```
